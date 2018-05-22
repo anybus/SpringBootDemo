@@ -1,7 +1,11 @@
-# SpringBootDemo
-本代码集成了SpringBoot+MyBatis+Redis+MySql。
+## SpringBoot系列代码示例
+
+### 1.SpringBootDemo
+代码集成了SpringBoot+MyBatis+Redis+MySql。
 最新的部分经网友指正已经把冗余的代码去掉了，大家clone到本地后直接转成maven项目应该就可以运行了，项目中使用到的数据库表如下
 
+
+```
 -- ----------------------------
 -- Table structure for `user_info`
 -- ----------------------------
@@ -17,4 +21,13 @@ CREATE TABLE `user_info` (
 -- Records of user_info
 -- ----------------------------
 INSERT INTO `user_info` VALUES ('1', 'xiaour', '1231');
+```
 
+### 2.SpringBootDemoV2
+
+本代码主要是展现了Springboot2.0版本的新特性。如定义动画启动banner等
+
+
+### 3.SpringBootKafkaDemo
+
+springboot与kafka的一个简单代码示例，springboot用起来真方便啊☺
